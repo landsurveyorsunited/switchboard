@@ -1,7 +1,7 @@
-name = "orange-meets"
+name = "strongcall"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2022-04-05"
-account_id = "a67e14daa5f8dceeb91fe5449ba496eb"
+account_id = "2a03f81f83258cf4285679d0a4eef805"
 main = "./build/index.js"
 
 [site]
@@ -12,7 +12,7 @@ main = "./build/index.js"
   globs = ["**/*.js"]
 
 [vars]
-CALLS_APP_ID = "f0ea263009299383d09d44b9fad5316c"
+CALLS_APP_ID = "31e32c538c76dd1176d2ad9a87991a54"
 
 [durable_objects]
  bindings = [
